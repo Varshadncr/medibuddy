@@ -1,0 +1,666 @@
+/* Custom Styles */
+
+body {
+    background-color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header Styles */
+h5 {
+    font-weight: bold;
+}
+
+.text-muted {
+    font-size: 0.9rem;
+}
+
+/* Icon Grid */
+.icon-image {
+    width: 60px;
+    height: 60px;
+}
+
+.icon-grid {
+    margin-bottom: 20px;
+}
+
+/* Promotional Banner */
+.card-body img {
+    max-width: 100px;
+}
+
+.card-body p {
+    margin-bottom: 5px;
+}
+
+/* General Card Styles */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon Cards */
+.icon-card {
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icon-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Image styling inside cards */
+.icon-card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+    
+} 
+
+/* Styling the text in cards */
+.card-body p {
+    font-weight: 500;
+}
+/* Featured Health Check-ups Section */
+.featured-section {
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+/* Header */
+.featured-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.view-all {
+    font-size: 0.9rem;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Filter Buttons */
+.filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filter-btn {
+    border: 1px solid #d1d9ff;
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.filter-btn.active {
+    background-color: #d1e0ff;
+    font-weight: bold;
+}
+
+.filter-btn:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Health Check Card */
+.health-check-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Shadow for card */
+    padding: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Card Hover Effect */
+.health-check-card:hover {
+    transform: translateY(-5px); /* Lift card up on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Add deeper shadow */
+}
+
+/* Sponsored Tag */
+.sponsored-tag {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.75rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.health-check-details {
+    font-size: 0.9rem;
+}
+
+.reports-link {
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: block;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.reports-link:hover {
+    color: #0056b3;
+}
+
+/* Price and Counter */
+.price-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.counter-btn {
+    border: 1px solid #d1d9ff;
+    background-color: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.counter-btn:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.counter-value {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+/* Section Wrapper */
+.booking-lab-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+/* Your Active Bookings Card */
+.active-booking-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.active-booking-card h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.booking-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
+
+.appointment-info p {
+    margin: 5px 0;
+}
+
+.view-all {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 0.9rem;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Lab Tests Section */
+.lab-tests-section {
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* Lab Tests Header */
+.lab-tests-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.view-more {
+    font-size: 0.9rem;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Filter Buttons */
+.test-filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.test-filter-btn {
+    border: 1px solid #d1d9ff;
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.test-filter-btn.active {
+    background-color: #d1e0ff;
+    font-weight: bold;
+}
+
+.test-filter-btn:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Lab Test Card */
+.lab-test-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lab-test-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Discount Badge */
+.discount-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.75rem;
+    border-radius: 10px;
+}
+
+/* Test Details */
+.lab-test-details {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.reports-time {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.price-section {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.add-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #0056b3;
+}
+
+/* Section Wrapper */
+.labs-visited-section, .user-reviews-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+/* Section Header */
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.section-header h5 {
+    font-weight: bold;
+}
+
+.see-all {
+    color: #007bff;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-decoration: underline;
+}
+
+/* Lab Card */
+.lab-card {
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.lab-card:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.lab-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.lab-info {
+    font-size: 0.9rem;
+}
+
+.lab-info h6 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.lab-info .rating {
+    color: #f39c12;
+    font-weight: bold;
+}
+
+/* User Reviews Section */
+.user-review-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.user-review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.review-text {
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+}
+
+.review-user {
+    display: flex;
+    align-items: center;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-name {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.location {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+/* Rating Stars */
+.rating {
+    color: #f39c12;
+    font-size: 1rem;
+}
+
+.review-time {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+/* Trusted by 20,00,000+ Users Every Month Card */
+.trusted-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.trusted-card:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.trusted-card h5 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.highlight-text {
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Trusted Information Grid */
+.trusted-info-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.trusted-info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9rem;
+    padding: 10px;
+}
+
+.trusted-info-item img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+
+.card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    width: 80px;
+    height: 80px;
+    margin-top: 15px;
+  }
+  
+  .card-title {
+    font-size: 16px;
+    color: #101a3f;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .custom-card {
+    background: #f9f9fc;
+    padding: 20px 10px;
+    border-radius: 15px;
+  }
+  
+  .container {
+    border-top: 3px solid #ff1493;
+    padding-top: 15px;
+  }
+
+  
+  /* How it Works Section */
+.how-it-works-section {
+    font-family: Arial, sans-serif;
+  }
+  
+  .how-it-works {
+    border: 2px solid #c1d3ff;
+    border-radius: 10px;
+    background-color: #f9f9fc;
+  }
+  
+  .how-it-works h2 {
+    color: #101a3f;
+  }
+  
+  .how-it-works .icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .how-it-works p {
+    color: #5a5a5a;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  /* Safe and Secure Section */
+  .safe-secure h3 {
+    color: #101a3f;
+  }
+  
+  .safe-secure .card {
+    border: none;
+    background-color: #f9f9fc;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .safe-secure .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .safe-secure .card-img-top {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .safe-secure p {
+    font-size: 14px;
+    color: #5a5a5a;
+    margin: 0;
+  }
+  
+  /* FAQ Section Styles */
+.faq-section {
+    font-family: Arial, sans-serif;
+  }
+  
+  .faq-section h3 {
+    color: #101a3f;
+    font-size: 18px;
+  }
+  
+  .accordion-button {
+    font-size: 14px;
+    font-weight: bold;
+    color: #101a3f;
+    background-color: #f9f9fc;
+    border: none;
+  }
+  
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: #dce4f7;
+  }
+  
+  .accordion-item {
+    border: none;
+    border-bottom: 1px solid #dcdcdc;
+  }
+  
+  .accordion-body {
+    font-size: 14px;
+    color: #5a5a5a;
+    line-height: 1.5;
+  }
+  
