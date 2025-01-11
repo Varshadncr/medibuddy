@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Health Buddy</title>
+    
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Icons CDN (Bootstrap Icons) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Container for all content -->
+    <div class="container mt-3">
+        
+        <!-- Header with location and icons -->
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <h5>Billekahalli <i class="bi bi-geo-alt-fill"></i></h5>
+                <p class="text-muted">Sarvabhoumanagar Billekahalli...</p>
+            </div>
+            <div class="d-flex align-items-center">
+                <span class="badge bg-primary rounded-pill p-2">4529</span>
+                <i class="bi bi-cart mx-3 fs-4"></i>
+                <div class="position-relative">
+                    <i class="bi bi-bell fs-4"></i>
+                    <span class="badge bg-danger rounded-pill position-absolute top-0 start-100 translate-middle">1</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="input-group my-4">
+            <input type="text" class="form-control" placeholder="Find lab tests, diagnostics centres">
+            <button class="btn btn-outline-secondary" type="button">
+                <i class="bi bi-search"></i>
+            </button>
+        </div>
+
+        <!-- Icon Grid with Cards -->
+        <div class="row text-center">
+            <div class="col-4 mb-3">
+                <div class="card icon-card">
+                    <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736566080/Group_209223_ctl5xn.png" alt="Annual Health Check" class="img-fluid icon-image">
+                    <div class="card-body">
+                        <p>Annual Health Check</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mb-3">
+                <div class="card icon-card">
+                    <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736566079/Group_209197_1_ijvvsz.png" alt="Book Lab Tests" class="img-fluid icon-image">
+                    <div class="card-body">
+                        <p>Book Lab Tests</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mb-3">
+                <div class="card icon-card">
+                    <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736566080/Group_209204_hl5v2g.png" alt="Popular Health Checks" class="img-fluid icon-image">
+                    <div class="card-body">
+                        <p>Popular Health Checks</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mb-3">
+                <div class="card icon-card">
+                    <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736566079/Group_209205_z2j5zv.png" alt="Find Labs/Hospitals" class="img-fluid icon-image">
+                    <div class="card-body">
+                        <p>Find Labs / Hospitals</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mb-3">
+                <div class="card icon-card">
+                    <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736566079/Group_209204_1_tuogta.png" alt="X-Rays, Scans & MRIs" class="img-fluid icon-image">
+                    <div class="card-body">
+                        <p>X-Rays, Scans & MRIs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mb-3">
+                <div class="card icon-card">
+                    <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736566080/Group_209207_c7ypzn.png" alt="Previous Orders" class="img-fluid icon-image">
+                    <div class="card-body">
+                        <p>Previous Orders</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Promotional Banner -->
+        <div class="card mb-4" style="background-color: #fdf4f8;">
+            <div class="card-body d-flex justify-content-between align-items-center">
+                <div>
+                    <p class="fw-bold">Baby On Board? Get Pregnancy Care Tests!</p>
+                    <p>Diabetes, ANC, Ferritin, HIV/Elisa & Thyroid</p>
+                    <a href="#" class="btn btn-primary">Book Now</a>
+                </div>
+                <div>
+                    <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736566079/Untitled_design_2_yl0dv4.png" alt="Pregnancy Care" class="img-fluid" style="max-width: 100px;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="featured-section">
+        <!-- Header -->
+        <div class="featured-header">
+            <span>Featured Health Check-ups</span>
+            <span class="view-all">View All</span>
+        </div>
+    
+        <!-- Filter Buttons -->
+        <div class="filters">
+            <button class="filter-btn active">Popular</button>
+            <button class="filter-btn">Center Visit</button>
+            <button class="filter-btn">Full Body Check Up</button>
+            <button class="filter-btn">Diagnostics</button>
+        </div>
+    
+        <!-- Health Check Card -->
+        <div class="health-check-card">
+            <!-- Sponsored Tag -->
+            <span class="sponsored-tag">Sponsored</span>
+            
+            <h5>Medibuddy Fit Health Check-up</h5>
+            <p class="reports-link">📄 Reports in 10-12 hrs</p>
+    
+            <div class="health-check-details">
+                <p><b>90 Tests</b></p>
+                <ul>
+                    <li>Cholesterol - Total</li>
+                    <li>Vitamin D... + 87 more</li>
+                </ul>
+    
+                <p><b>Includes</b></p>
+                <ul>
+                    <li>Radiology</li>
+                </ul>
+    
+                <p><b>Fasting</b>: 07-08 Hrs</p>
+                <p><b>Available</b> at Home</p>
+            </div>
+    
+            <!-- Price and Counter -->
+            <div class="price-section">
+                <span>₹ 0</span>
+                <div class="counter">
+                    <button class="counter-btn">-</button>
+                    <span class="counter-value">1</span>
+                    <button class="counter-btn">+</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="booking-lab-section">
+        <!-- Your Active Bookings -->
+        <div class="active-booking-card">
+            <h5>Your Active Bookings</h5>
+            <div class="booking-details">
+                <div class="appointment-info">
+                    <p class="user-name">👤 Mr. Suresh Gaikwad</p>
+                    <p class="appointment-status">🟢 Appointment Confirmed</p>
+                    <p class="appointment-date">📅 03 Nov'22 - 09:30-10:30 AM</p>
+                    <p class="appointment-location">🏠 Home Sample Collection</p>
+                </div>
+                <div class="lab-tests">
+                    <p>🧪 03 Lab Tests</p>
+                </div>
+            </div>
+            <span class="view-all">View All</span>
+        </div>
+    
+        <!-- Book Popular Lab Tests -->
+        <div class="lab-tests-section">
+            <!-- Header -->
+            <div class="lab-tests-header">
+                <span>Book Popular Lab Tests</span>
+                <span class="view-more">View More</span>
+            </div>
+    
+            <!-- Filter Buttons -->
+            <div class="test-filters">
+                <button class="test-filter-btn active">For Amazon Employees</button>
+                <button class="test-filter-btn">Center Visit</button>
+                <button class="test-filter-btn">Full Body Check</button>
+            </div>
+    
+            <!-- Lab Test Card -->
+            <div class="lab-test-card">
+                <span class="discount-badge">55% OFF</span>
+                <h5>Complete Blood Count (CBC) - EDTA Whole Blood</h5>
+                <p class="reports-time">📄 Reports in 10-12 hrs</p>
+                <div class="lab-test-details">
+                    <p><b>Available</b> at Home, Lab</p>
+                </div>
+                <div class="price-section">
+                    <span>₹ 500</span>
+                    <button class="add-button">Add</button>
+                </div>
+            </div>
+    
+            <!-- Repeat Lab Test Card as Needed -->
+            <div class="lab-test-card">
+                <span class="discount-badge">50% OFF</span>
+                <h5>Liver Function Test (LFT)</h5>
+                <p class="reports-time">📄 Reports in 10-12 hrs</p>
+                <div class="lab-test-details">
+                    <p><b>Available</b> at Home, Lab</p>
+                </div>
+                <div class="price-section">
+                    <span>₹ 700</span>
+                    <button class="add-button">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Labs Visited Section -->
+<div class="labs-visited-section">
+    <div class="section-header">
+        <h5>Labs Visited</h5>
+        <span class="see-all">See All</span>
+    </div>
+    <div class="lab-card">
+        <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736569855/download_civs2e.png" alt="Apollo Diagnostics" class="lab-image">
+        <div class="lab-info">
+            <h6>Apollo Diagnostics</h6>
+            <p>📍 Kamanangala, Bangalore</p>
+            <p>Next Slot: 07:30 AM, Tomorrow</p>
+            <div class="rating">⭐ 4.5/5 (120 ratings)</div>
+        </div>
+    </div>
+</div>
+<!-- Trusted by 20,00,000+ Users Every Month Section -->
+<div class="trusted-card">
+    <h5>Trusted by <span class="highlight-text">20,00,000+</span> Users Every month</h5>
+    <div class="trusted-info-grid">
+        <div class="trusted-info-item">
+            <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736570669/Group_105500_cxjwvo.png" alt="Diagnostic Centers">
+            <p>200+ Approved Diagnostic Centres</p>
+        </div>
+        <div class="trusted-info-item">
+            <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736570669/Group_87950_kdkyn8.png" alt="Lab Tests">
+            <p>1200+ Lab Tests Offered</p>
+        </div>
+        <div class="trusted-info-item">
+            <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736570669/Group_105501_akohqx.png" alt="Pincodes Covered">
+            <p>1200+ Pincodes Covered</p>
+        </div>
+    </div>
+</div>
+
+<!-- User Reviews Section -->
+<div class="user-reviews-section">
+    <div class="section-header">
+        <h5>What our Users say</h5>
+    </div>
+
+    <div class="user-review-card">
+        <div class="review-header">
+            <span class="rating">⭐⭐⭐⭐⭐</span>
+            <span class="review-time">2 Days Ago</span>
+        </div>
+        <p class="review-text">"Good app and very helpful to customers as customers can book online health check-up and book hospitalization as customer..."</p>
+        <div class="review-user">
+            <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736569846/download_knnyc2.png" alt="User Avatar" class="user-avatar">
+            <p class="user-name">Vikrant Kishore Suryavanshi</p>
+            <p class="location">📍 Bangalore</p>
+        </div>
+    </div>
+</div>
+
+<div class="container my-5">
+    <h2 class="text-center fw-bold">Lifestyle Health Check-up Packages</h2>
+    <div class="row mt-4">
+      <div class="col-6 col-md-4 text-center">
+        <div class="card custom-card">
+          <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736582654/Group_208695_xdcykz.png" alt="Hyper-Tension" class="card-img-top mx-auto">
+          <div class="card-body">
+            <p class="card-title">Hyper-Tension</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 text-center">
+        <div class="card custom-card">
+          <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736582654/Group_208696_uo3i3o.png" alt="Obesity" class="card-img-top mx-auto">
+          <div class="card-body">
+            <p class="card-title">Obesity</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 text-center">
+        <div class="card custom-card">
+          <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736582654/Group_208660_iyhqin.png" alt="Smoking" class="card-img-top mx-auto">
+          <div class="card-body">
+            <p class="card-title">Smoking</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 text-center">
+        <div class="card custom-card">
+          <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736582654/Frame_190054_dec26u.png" alt="Diabetic" class="card-img-top mx-auto">
+          <div class="card-body">
+            <p class="card-title">Diabetic</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 text-center">
+        <div class="card custom-card">
+          <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736582654/Group_208696_uo3i3o.png" alt="Obesity" class="card-img-top mx-auto">
+          <div class="card-body">
+            <p class="card-title">Obesity</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4 text-center">
+        <div class="card custom-card">
+          <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736582654/Group_208695_xdcykz.png" alt="Hyper-Tension" class="card-img-top mx-auto">
+          <div class="card-body">
+            <p class="card-title">Hyper-Tension</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  <div class="container my-5">
+    <div class="how-it-works p-4">
+      <h2 class="fw-bold">How it Works?</h2>
+      <div class="row mt-4">
+        <div class="col-12 mb-3 d-flex">
+          <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736583080/Group_130240_t1bwuh.png" alt="Step 1" class="icon me-3">
+          <p>Search for required Lab tests and select Diagnostic centre of your choice. Add prescription, patient details and address to complete the booking.</p>
+        </div>
+        <div class="col-12 mb-3 d-flex">
+          <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736583080/Group_130235_ncorak.png" alt="Step 2" class="icon me-3">
+          <p>Visit the lab centre as per your booking. For home sample collection, certified professionals will collect the samples at your home.</p>
+        </div>
+        <div class="col-12 d-flex">
+          <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736583080/Group_130242_fgwo2h.png" alt="Step 3" class="icon me-3">
+          <p>We will email you the reports. You can also access your reports within your account on the MediBuddy App.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="safe-secure mt-5">
+      <h3 class="fw-bold">100% Safe & Secure Lab Tests</h3>
+      <div class="row mt-4">
+        <div class="col-6 col-md-3 text-center">
+          <div class="card custom-card">
+            <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736583079/Group_105499_sri3vz.png" alt="Gov. Approved" class="card-img-top mx-auto">
+            <p class="mt-2">Gov. Approved Diagnostic Centres</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 text-center">
+          <div class="card custom-card">
+            <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736583079/Group_105504_feo1h4.png" alt="Daily Check" class="card-img-top mx-auto">
+            <p class="mt-2">Daily Temperature Check of all Technicians</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 text-center">
+          <div class="card custom-card">
+            <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736583079/Group_105503_wpqycu.png" alt="Mask & Sanitizer" class="card-img-top mx-auto">
+            <p class="mt-2">Mandatory use of Mask & Sanitizers</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 text-center">
+          <div class="card custom-card">
+            <img src="https://res.cloudinary.com/da41qeo0g/image/upload/v1736583079/Group_105504_feo1h4.png" alt="Disinfection" class="card-img-top mx-auto">
+            <p class="mt-2">Regular Disinfection of Labs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="faq-section container my-5">
+    <h3 class="fw-bold">Frequently Asked Questions</h3>
+    <div class="accordion mt-4" id="faqAccordion">
+      <!-- Question 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Is getting lab test done, safe and secure?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Lorem ipsum lorem ipsum lorato lorem ipsum lorem ipsum lorem ipsum lorato lorem ipsum rem ipsum lorem ipsum lorato lorem ipsum lorem ipsum lorem ipsum lorato lorem.
+          </div>
+        </div>
+      </div>
+      <!-- Question 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            What is home sample collection?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Lorem ipsum lorem ipsum lorato lorem ipsum lorem ipsum.
+          </div>
+        </div>
+      </div>
+      <!-- Question 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            What are the benefits of booking my test online?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Lorem ipsum lorem ipsum lorato lorem ipsum.
+          </div>
+        </div>
+      </div>
+      <!-- Add more questions -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            How to prepare for Lab Test/Health Checkup?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Lorem ipsum lorem ipsum lorato lorem ipsum.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
